@@ -1,0 +1,30 @@
+<!--Michael Schlitt-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Picture Rocket</title>
+
+<!--Link to JavaScript and CSS-->
+<link rel="stylesheet" href="Moving Pic CSS.css">
+<script src="Moving Pic JS.js"></script>
+</head>
+
+<body>
+    <h1>Launch The Rocket</h1>
+    <!--JS function link-->
+    <button id="launchbutton" onclick= "intervalstart() ;onclick=play()">Launch Rocket</button>
+    <button id="stopbutton" onclick="intervalstop(); onclick=stop()"; >Stop Rocket</button>
+
+<!--style="position: absolute;" tells picture to go where you tell it(using x/y coordinates in px and % , top left of screen is 0/0px) --->
+    <img src="spacex flight opt2.jpeg" id="spacexopt2" style="position: absolute;
+    left: 40%; bottom: -58px; width: 400px;"/>
+
+<p>Altitude(x100ft):</p>
+    <p id="yaxis">---</p>
+
+</body>
+
+<footer>Copywrite</footer>
+</html>
